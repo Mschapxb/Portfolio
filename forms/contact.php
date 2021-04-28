@@ -6,7 +6,6 @@
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
 
-  // Replace contact@example.com with your real receiving email address
   if (isset($_POST) && !empty($_POST['email']) && !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['message'])) 
   {
       $to = "chapelet.a2001@gmail.com";
